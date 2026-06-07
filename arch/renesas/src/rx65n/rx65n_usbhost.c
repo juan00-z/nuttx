@@ -7432,7 +7432,7 @@ static ssize_t rx65n_usbhost_transfer(struct usbhost_driver_s *drvr,
 
   if (nrdy_retries[ed->pipenum] != 0)
     {
-      /* nRdy has occured alreday - just return with -ve value,
+      /* nRdy has occurred alreday - just return with -ve value,
        * so that file close is also completes with this error
        *
        */

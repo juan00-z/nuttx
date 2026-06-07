@@ -2254,7 +2254,7 @@ static void sam_dma_txcallback(DMA_HANDLE handle, void *arg, int status)
 
   if (status != OK)
     {
-      /* This means some error occured during DMA transfer. This is most
+      /* This means some error occurred during DMA transfer. This is most
        * likely just rare error so schedule work again. Note that this is not
        * ideal and we could end in an infinite loop. Better approach would be
        * to use some error counter and report error to serial driver if
