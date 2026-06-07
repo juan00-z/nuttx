@@ -157,7 +157,7 @@ static const struct file_operations g_canops =
  * Description:
  *   This function performs in specfic cycle that is specified by
  *   CONFIG_CAN_ERROR_POLLING_CYCLE. it call dev_errhandle() to
- *   check error status. if error status is occured, dev_errhandle() will
+ *   check error status. if error status occurred, dev_errhandle() will
  *   encapsulate error information into can msg and call can_receive()
  *   to take this msg into rx fifo.
  *

@@ -956,7 +956,7 @@ static bool ctucanfd_chrdev_txempty(FAR struct can_dev_s *dev)
  * Name: ctucanfd_chrdev_txconfirm
  *
  * Description:
- *   Get the can id when tx interrupt occured.
+ *   Get the can id when tx interrupt occurred.
  *
  * Input Parameters:
  *   dev  - Reference to the can device structure.
