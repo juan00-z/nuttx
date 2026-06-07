@@ -866,7 +866,7 @@ static int hx711_close(FAR struct file *filep)
  *
  * Description:
  *   Action to take upon file unlinking. Function will free resources if
- *   noone is using the driver when unlinking occured. If driver is still
+ *   no one is using the driver when unlinking occurred. If driver is still
  *   in use, it will be marked as unlinked and resource freeing will take
  *   place in hx711_close() function instead, once last reference is closed.
  *
