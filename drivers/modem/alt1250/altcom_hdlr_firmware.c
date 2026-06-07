@@ -248,7 +248,7 @@ int32_t altcom_fwcommon_pkt_parse(FAR struct alt1250_dev_s *dev,
   FAR struct apicmd_cmddat_fw_deltaupcommres_s *in =
     (FAR struct apicmd_cmddat_fw_deltaupcommres_s *)pktbuf;
 
-  /* Negative value in result_cmd means an error is occured.
+  /* Negative value in result_cmd means an error occurred.
    * Zero indicates command successed or size of injected data
    */
 
