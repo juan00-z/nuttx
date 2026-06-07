@@ -1578,7 +1578,7 @@ static int nvs_startup(FAR struct nvs_fs *fs)
 
   /* Check if there exists an old entry with the same id and key
    * as the newest entry.
-   * If so, power loss occured before writing the old entry id as expired.
+   * If so, power loss occurred before writing the old entry id as expired.
    * We need to set old entry expired.
    */
 

@@ -183,7 +183,7 @@ struct gpio_dev_s
 
   atomic_t register_count;
 
-  /* Number of times interrupt occured */
+  /* Number of times interrupt occurred */
 
   uintptr_t int_count;
 
