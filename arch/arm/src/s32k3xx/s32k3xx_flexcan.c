@@ -1776,7 +1776,7 @@ static int s32k3xx_init_eccram(struct s32k3xx_driver_s *priv)
 }
 
 /****************************************************************************
- * Function: s32k3xx_initalize
+ * Function: s32k3xx_initialize
  *
  * Description:
  *   Initialize FLEXCAN device

@@ -1535,7 +1535,7 @@ static int s32k1xx_ioctl(struct net_driver_s *dev, int cmd,
 #endif /* CONFIG_NETDEV_IOCTL */
 
 /****************************************************************************
- * Function: s32k1xx_initalize
+ * Function: s32k1xx_initialize
  *
  * Description:
  *   Initialize FLEXCAN device

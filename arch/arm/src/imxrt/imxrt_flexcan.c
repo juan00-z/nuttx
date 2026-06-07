@@ -1647,7 +1647,7 @@ static int imxrt_init_eccram(struct imxrt_driver_s *priv)
 #endif
 
 /****************************************************************************
- * Function: imxrt_initalize
+ * Function: imxrt_initialize
  *
  * Description:
  *   Initialize FLEXCAN device

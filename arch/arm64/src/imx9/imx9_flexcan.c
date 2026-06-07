@@ -1744,7 +1744,7 @@ static int imx9_init_eccram(struct imx9_driver_s *priv)
 }
 
 /****************************************************************************
- * Function: imx9_initalize
+ * Function: imx9_initialize
  *
  * Description:
  *   Initialize FLEXCAN device
