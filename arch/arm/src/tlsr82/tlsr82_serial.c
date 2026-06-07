@@ -397,7 +397,7 @@ static inline void uart_reset(int uart_num)
  * Name: uart_get_rxfifo_num
  *
  * Description:
- *   Get the recieved data numbers in the rx fifo.
+ *   Get the received data numbers in the rx fifo.
  *
  * Parameters:
  *   uart_num  - the uart hardware index
